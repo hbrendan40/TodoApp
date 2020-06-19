@@ -19,7 +19,7 @@ router.post('/', (req, res) => {
     .then(item=> res.json(item));
 });
 
-//delete route
+//delete routes
 router.delete('/:id', (req, res) => {
  Item.findById(req.params.id)
  .then(item => item.remove().then(() => res.json({success: true})))
