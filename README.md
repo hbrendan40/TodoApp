@@ -1,2 +1,2 @@
-# TodoList
+# TodoApp
 MERN stock with todo
